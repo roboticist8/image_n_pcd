@@ -1,0 +1,5 @@
+<launch>
+
+  <node name="image" pkg="save_image_n_pcd" type="save_image_once.py" output="screen"/>
+  <node name="pcd" pkg="save_image_n_pcd" type="save_pcd" output="screen"/>
+</launch>
